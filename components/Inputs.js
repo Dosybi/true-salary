@@ -128,7 +128,7 @@ const Inputs = ({ getResult }) => {
   }
 
   return (
-    <div>
+    <>
       {data.map((category) => {
         return (
           <SingleInput
@@ -138,7 +138,7 @@ const Inputs = ({ getResult }) => {
           />
         )
       })}
-    </div>
+    </>
   )
 }
 

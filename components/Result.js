@@ -19,7 +19,7 @@ const Result = ({ totalExpenses, totalBalance, income }) => {
         <div className="flex">
           <div className="pr-2">
             <span className="text-xl font-bold">{expenses} ₸/мес</span> или 
-            {percent}% от зарплаты вы тратите на работу
+            {percent}% зарплаты вы тратите на работу
           </div>
           <div className="-my-4 -mr-8 bg-green-500 py-4 px-8">
             <span className="text-xl font-bold">{balance} ₸/мес</span> остаётся
